@@ -1,0 +1,56 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+table{
+    background-color:blue;
+    color:whitesmoke;
+    width: 650px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 3px 3px 5px red;
+}
+th{
+    background-color: black;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.pro{
+    background-color: antiquewhite;
+    color: orangered;
+}
+.inc{
+    background-color: antiquewhite;
+    color: orangered;
+}
+.ex{
+    background-color: antiquewhite;
+    color: orangered;
+}
+.gai{
+    background-color: antiquewhite;
+    color: orangered;
+}
+@media screen and (max-width:800px) {
+    th{
+        display: inline-block;
+        color: aqua;
+        background-color: blueviolet;
+    } 
+    th{
+        display: block;
+        color: aquamarine;
+        background-color: black;
+    }
+    table{
+        color: aliceblue;
+        display:flex;
+        background-color: brown;
+    }
+}
